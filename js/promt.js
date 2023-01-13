@@ -20,7 +20,7 @@ const aksSomething = () => {
 }
 
 const getUserInfo = () => {
-    const name = prompt('Tell us your name.');
+    const name = prompt('Tell us your name.', 'Mr. X');
     console.log(name);
     if (!!name) {
         console.log('Welcome here', name);
